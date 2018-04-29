@@ -1,0 +1,15 @@
+# gitignore file
+
+# package files
+*.jar
+*.war
+*.ear
+
+# folders
+.idea/*
+target/*
+out/*
+
+# files
+*.iml
+*.class
