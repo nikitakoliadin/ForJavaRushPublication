@@ -7,7 +7,7 @@ cache:
   directories:
   - $HOME/.m2
 
-# JaCoCo https://github.com/codecov/example-java
+# Codecov https://github.com/codecov/example-java
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
