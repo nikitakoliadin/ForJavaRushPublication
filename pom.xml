@@ -6,7 +6,7 @@
 
     <groupId>ForJavaRushPublication</groupId>
     <artifactId>ForJavaRushPublication</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ForJavaRushPublication</name>
@@ -23,6 +23,9 @@
 
         <!-- JUnit -->
         <junit.version>4.12</junit.version>
+
+        <!-- JaCoCo -->
+        <jacoco.version>0.8.1</jacoco.version>
     </properties>
 
     <build>
@@ -61,6 +64,27 @@
                         <!-- Bind to the packaging phase -->
                         <goals>
                             <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- JaCoCo plugin -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
                         </goals>
                     </execution>
                 </executions>
