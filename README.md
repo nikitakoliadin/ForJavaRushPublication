@@ -1,9 +1,10 @@
 # ForJavaRushPublication
 ## Project Information
-This project is an example project realizing Continuous Integration (CI), Codecov (Code Coverage) and README.md (Markdown) for [JavaRush](https://javarush.ru/) [competition](https://javarush.ru/groups/posts/581-podelisjh-znanijami-poluchi-priz-novihy-konkurs-postov-ot-javarush-).
+This project is an example project realizing Continuous Integration (CI), Code Coverage (Codecov) and Markdown (README.md) for [JavaRush](https://javarush.ru/) [competition](https://javarush.ru/groups/posts/581-podelisjh-znanijami-poluchi-priz-novihy-konkurs-postov-ot-javarush-).
 References to my articles:
 - [Continuous Integration](https://javarush.ru/groups/posts/594-continuous-integration)
 - [Code Coverage](https://javarush.ru/groups/posts/602-codecov)
+- [Markdown](https://javarush.ru/groups/posts/612-markdown)
 
 | Technology | Badge |
 |:-----------:|:-----:|
@@ -11,7 +12,7 @@ References to my articles:
 | Codecov | [![codecov](https://codecov.io/gh/qThegamEp/ForJavaRushPublication/branch/JaCoCo/graph/badge.svg)](https://codecov.io/gh/qThegamEp/ForJavaRushPublication) |
 
 ## Import Information
-If you want to test this project yourself:
+If you want to use this project:
 1. You have to "*clone*" on your GitHub or "*download*" this project;
 2. If you selected to "*download*" the project then start your Intellij IDEA and choose the "*Import Project*" and then choose as "*Maven*" project else if you selected to "*clone*" the project choose the "*Check out from Version Control*" and then choose "*GitHub*" and and select your repository in which you cloned this project;
 3. If your version is Java 9 then you can skip this item otherwise you have to open the "*pom.xml*" file and look for the line `<java.version>1.9</java.version>` and change the value to your version of Java;
