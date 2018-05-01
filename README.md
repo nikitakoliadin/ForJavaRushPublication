@@ -21,13 +21,10 @@ If you want to test this project yourself:
 * **Programming language:** Java
 * **Build system:** [Maven](https://maven.apache.org/)
 * **Automated testing:** [JUnit4](https://junit.org/junit4/)
-* **Continuous Integration:** 
-	* [Travis CI](https://travis-ci.org/)
-	* [Codecov.io](https://codecov.io/)
+* **Continuous Integration:** [Travis CI](https://travis-ci.org/)
 
 ## Contacts
 * **Author:** Koliadin Nikita
 * **Facebook:** [My Facebook](https://www.facebook.com/koliadin.nikita)
 * **Gmail:** qThegamEp@gmail.com
 * **JavaRush:** [My JavaRush](https://javarush.ru/users/1324097)
-
