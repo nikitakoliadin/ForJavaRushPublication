@@ -1,6 +1,6 @@
 # ForJavaRushPublication
 ## Project Information
-This project is an example project realizing Continuous Integration (CI), Codecov (Code Coverage) and README.md (Markdown) for [JavaRush](https://javarush.ru/) [competition](https://javarush.ru/groups/posts/581-podelisjh-znanijami-poluchi-priz-novihy-konkurs-postov-ot-javarush-).
+This project is an example project realizing Continuous Integration (CI), Code Coverage (Codecov) and Markdown (README.md) for [JavaRush](https://javarush.ru/) [competition](https://javarush.ru/groups/posts/581-podelisjh-znanijami-poluchi-priz-novihy-konkurs-postov-ot-javarush-).
 References to my articles:
 - [Continuous Integration](https://javarush.ru/groups/posts/594-continuous-integration)
 - [Code Coverage](https://javarush.ru/groups/posts/602-codecov)
