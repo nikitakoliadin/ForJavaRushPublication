@@ -9,7 +9,6 @@
     <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ForJavaRushPublication</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -17,6 +16,9 @@
         <java.version>1.9</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Project name -->
+        <project.name>ForJavaRushPublication</project.name>
 
         <!-- Compiler plugin -->
         <compilerplugin.version>3.7.0</compilerplugin.version>
@@ -45,23 +47,21 @@
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
+                    <finalName>${project.name}</finalName>
                     <archive>
                         <manifest>
-                            <mainClass>com.game.snake.Main</mainClass>
+                            <mainClass>com.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <finalName>${project.name}</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
                 <executions>
                     <execution>
                         <id>make-assembly</id>
-                        <!-- This is used for inheritance merges -->
                         <phase>package</phase>
-                        <!-- Bind to the packaging phase -->
                         <goals>
                             <goal>single</goal>
                         </goals>
