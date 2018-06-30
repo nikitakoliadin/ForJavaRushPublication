@@ -1,4 +1,4 @@
-package com;
+package com.qthegamep.forjavarushpublication;
 
 public class Main {
 
