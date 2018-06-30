@@ -1,5 +1,6 @@
-package com;
+package com.qthegamep.forjavarushpublication;
 
+import com.qthegamep.forjavarushpublication.Main;
 import org.junit.Before;
 import org.junit.Test;
 
